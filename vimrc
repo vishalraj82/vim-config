@@ -25,7 +25,7 @@ set backspace=indent,eol,start
 set hidden
 set ttyfast
 
-set ignorecase
+set noignorecase
 set smartcase
 
 set t_Co=256
@@ -44,10 +44,4 @@ set novisualbell
 
 set encoding=utf-8
 
-map <C-H> <C-W>h<C-W>_
-map <C-J> <C-W>j<C-W>_
-map <C-K> <C-W>k<C-W>_
-map <C-L> <C-W>l<C-W>_
-
-nnoremap j gj
-nnoremap k gk
+map gf <C-W>gf
