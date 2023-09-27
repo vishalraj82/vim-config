@@ -6,6 +6,9 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'junegunn/fzf', { 'do': { ->  fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'leafgarland/typescript-vim'
+    Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
 " Number of spaces that a <Tab> in the file counts for.  Also see
