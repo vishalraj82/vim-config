@@ -4,8 +4,6 @@ set nocompatible
 " Enable plugins
 call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
-    Plug 'junegunn/fzf', { 'do': { ->  fzf#install() } }
-    Plug 'junegunn/fzf.vim'
     Plug 'pangloss/vim-javascript'
     Plug 'leafgarland/typescript-vim'
     Plug 'maxmellon/vim-jsx-pretty'
@@ -474,14 +472,6 @@ filetype indent on
 filetype plugin on
 
 map gf <C-W>gf
-
-" Customize fzf
-let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name ".git"  \) -prune -o -print'
-nnoremap <c-p> :Files<cr>
-" Attached window layout
-let g:fzf_layout = { 'down': '50%' }
-" Popup layout
-" let g:gzf_layout = { 'window': { 'width': '0.8', 'height': '0.6' } }
 
 " Custom key bindings for file explorer
 inoremap <c-b> <Esc>:Lex<br>:vertical resize 60<tr>
