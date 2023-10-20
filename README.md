@@ -20,3 +20,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```bash
 wget -O- https://raw.githubusercontent.com/vishalraj82/vim-config/master/vimrc > $HOME/.vimrc
 ```
+
+Feel free to make necessary changes to the `.vimrc` file to suit to your need.
