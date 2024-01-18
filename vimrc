@@ -473,8 +473,4 @@ filetype plugin on
 
 map gf <C-W>gf
 
-" Custom key bindings for file explorer
-inoremap <c-b> <Esc>:Lex<br>:vertical resize 60<tr>
-nnoremap <c-b> <Esc>:Lex<br>:vertical resize 60<tr>
-
-autocmd Filetype yaml set ts=4 sts=4 sw=4 expandtab
+autocmd Filetype yaml set ts=2 sts=2 sw=2 expandtab
